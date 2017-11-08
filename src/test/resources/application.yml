@@ -1,0 +1,8 @@
+linker.prefix: http://test.local
+
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql:linker
+    username: linker
+    password: linker
