@@ -1,12 +1,12 @@
 package com.seredkin.linker.service;
 
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;
 
 import java.util.Base64;
 
-@Component
-@Primary
+@Component @Qualifier("Base64")
 class CodecBase64Impl implements Codec {
     @Override
     public Long decodeId(String base64id) {
