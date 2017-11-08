@@ -19,7 +19,7 @@ import static org.hamcrest.Matchers.*;
 public class LinkerServiceTests {
     @Autowired private LinkerService<Link> service;
     @Autowired private Codec codec;
-    int scale = 1_000;
+    private int scale = 1_000;
     private final Random r = new Random();
 
     @Test public void addRemoveMany(){
