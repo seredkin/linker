@@ -1,8 +1,6 @@
 package com.seredkin.linker.service;
 
 import com.github.fzakaria.ascii85.Ascii85;
-import org.springframework.beans.factory.annotation.Qualifier;
-import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;
 
 import java.nio.charset.StandardCharsets;

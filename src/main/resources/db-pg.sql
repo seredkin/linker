@@ -1,4 +1,4 @@
-drop table if exists link;
+drop table if exists "link";
 
 CREATE TABLE "link" (
 	"id"	BIGSERIAl PRIMARY KEY,
